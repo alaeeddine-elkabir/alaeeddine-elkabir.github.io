@@ -171,7 +171,7 @@
       <div class="container">
         <div class="text-center">
           <h2>Digital Marketing Expert</h2>
-          <p class="lead">Made With ❤️ Alae eddine elkabir - <span id="year"></span></p>
+          <p class="lead">Made With ❤️ Alae eddine elkabir - <span id="currentYear"></span></p>
         </div>
       </div>
     </section>
@@ -182,7 +182,7 @@
       tooltips.forEach(t => {
         new bootstrap.Tooltip(t)
       })
-      document.getElementById("#year").innerHTML = new Date().getFullYear()
+    document.querySelector("#currentYear").innerHTML = new Date().getFullYear(); 
     </script>
   </body>
 </html>
